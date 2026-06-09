@@ -283,7 +283,7 @@ export default function Navbar() {
                   {activeLikeNotification.name}, {activeLikeNotification.age} menyukai Anda! 💖
                 </h4>
                 <p style={{ margin: "2px 0 0 0", fontSize: "0.75rem", color: "rgba(255, 255, 255, 0.85)", whiteSpace: "nowrap", overflow: "hidden", textOverflow: "ellipsis" }}>
-                  {activeLikeNotification.city || "Lokasi tidak diketahui"} • "{activeLikeNotification.bio || "Halo!"}"
+                  {activeLikeNotification.city || "Lokasi tidak diketahui"} • &quot;{activeLikeNotification.bio || "Halo!"}&quot;
                 </p>
               </div>
             </div>
